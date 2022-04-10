@@ -21,7 +21,7 @@ The page is fully responsive.
 
 ### Screenshot
 
-![Screenshot of my solution](/assets/space_1.png)
+![Screenshot of my solution](/assets/space.png)
 
 ### Links
 
