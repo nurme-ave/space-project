@@ -30,6 +30,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   width: 100%;
   max-width: 450px;
   padding: 2em 0;
@@ -57,13 +58,14 @@ body {
   margin-bottom: .75em;
   font-size: 1rem;
   text-align: center;
+  line-height: 1.4;
 }
 
 .info-text-shuttle {
   margin-bottom: 1.25em;
   font-size: 1rem;
   text-align: center;
-
+  line-height: 1.4;
 }
 
 .form {
@@ -225,6 +227,10 @@ video {
 
   input {
     height: 3.55em;
+  }
+
+  input:focus {
+    outline: 3px solid #8ac926;
   }
 
   /* .form {

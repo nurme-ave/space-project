@@ -13,7 +13,7 @@ formEl.addEventListener('submit', (e) => {
   if (firstCheckbox) {
     let updatedHTMLContent = `
       <h2 class="updated-content">Thank you, ${capitalizedFirstName}, your form was submitted successfully!</h2>
-      <p class="be-in-contact">We'll be in contact within 24 hours and send a confirmation to ${userEmailAddress}!</p>
+      <p class="info-text-shuttle">We'll be in contact within 24 hours and send a confirmation to ${userEmailAddress}!</p>
       <button id="go-back" class="submit-button">Go back</button>
       `;
   
