@@ -12,15 +12,14 @@
 </head>
 <body>
   <section class="showcase">
-    <div class="card-form">
+    <div id="card-content" class="card-form">
       <h1>Need some space?</h1>
       <p class="supporting-text">We can give it to you - <span class="accent">literally!</span></p>
       <p class="info-text-fill-form">Fill in the form below and we'll contact you in 24hrs.</p>
       <p class="info-text-shuttle">The next shuttle leaves on April 22nd, 2022.</p>
       <form class="form">
-        <!-- <label for="Your first name"></label> -->
-        <input type="text" placeholder="Your first name, e.g Apollo" required>
-        <input type="email" placeholder="Your galactic e-mail" required>
+        <input name="first-name" type="text" placeholder="Your first name, e.g Apollo" required>
+        <input name="email-address" type="email" placeholder="Your galactic e-mail" required>
         <button type="submit" class="submit-button">Submit</button>
         <div class="checkboxes">
           <input type="checkbox" id="consent">
@@ -38,5 +37,7 @@
   <footer>
     This is a <strong><span class="fictional">fictional</span></strong> site designed &amp; built by <a href="https://www.avenurme.dev" target="_blank" class="footer-contact">Ave Nurme</a> &copy; 2022
   </footer>
+
+  <script src="index.js"></script>
 </body>
 </html>
