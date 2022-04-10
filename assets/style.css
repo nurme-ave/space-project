@@ -14,12 +14,12 @@ body {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  padding-top: 3.5em;
   position: absolute;
   top: 0;
   left: 0;
   width: 100vw;
   height: 100vh;
+  padding: 0 1em;
   color: #fff;
   background-color: #000;
   text-align: center;
@@ -30,9 +30,9 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  width: 90%;
+  width: 100%;
   max-width: 450px;
+  padding: 2em 0;
   /* border: 1px solid orange; */
 }
 
@@ -85,7 +85,6 @@ input {
   font-family: inherit;
   font-size: 1rem;
   text-align: center;
-  border: 0;
 }
 
 input::placeholder {
@@ -95,7 +94,6 @@ input::placeholder {
 
 input:focus {
   outline: 2px solid #8ac926;
-  /* outline: 3px solid #8ac926; */
   text-align: center;
 }
 
@@ -112,12 +110,9 @@ input[type="email"] {
 }
 
 input[type="checkbox"] {
-  /* width: 10%; */
   width: 1em;
-  height: 0.75em;
-  /* display: inline-block; */
+  height: 0.8em;
   margin: 0.5em;
-  /* height: .8em; */
 }
 
 .cb1, .cb2 {
@@ -127,21 +122,9 @@ input[type="checkbox"] {
   font-size: 1rem;
 }
 
-/* .checkboxes {
-  width: 100%;
-  margin: 0 auto;
-} */
-
-/* .checkboxes {
-  display: inline-block;
-  width: 100%;
-  text-align: center;
-  margin-bottom: 3em;
-} */
 
 .submit-button {
   border-radius: 1em;
-  margin-bottom: 0.25em;
   padding: 0.25em 1em;
   height: 3em;
   width: 13em;
@@ -177,8 +160,7 @@ video {
 
 .footer {
   font-size: 0.8rem;
-  width: 90%;
-  text-align: center;
+  width: 100%;
   color: #fff;
   z-index: 5;
   line-height: 1.4;
@@ -245,9 +227,9 @@ video {
     height: 3.55em;
   }
 
-  .form {
+  /* .form {
     padding-bottom: 5em;
-  }
+  } */
 
   .be-in-contact {
     padding-bottom: 2em;
