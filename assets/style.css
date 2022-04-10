@@ -79,7 +79,7 @@ input {
   border-radius: 1em;
   width: 90%;
   max-width: 20em;
-  height: 3em;
+  height: 3.5em;
   border: 0;
   font-family: inherit;
   font-size: 1rem;
@@ -143,7 +143,7 @@ input[type="checkbox"] {
   margin-bottom: 0.25em;
   padding: 0.25em 1em;
   height: 3em;
-  width: 8em;
+  width: 13em;
   text-align: center;
   font-size: 1.05rem;
   letter-spacing: 0.05em;
@@ -159,9 +159,8 @@ input[type="checkbox"] {
 .submit-button:focus {
   background-color: #fff;
   color: #8ac926;
+  outline: none;
 }
-
-
 
 video {
   position: absolute;
@@ -232,6 +231,12 @@ video {
 
   .info-text-shuttle {
     margin-bottom: 2em;
+  }
+
+  .info-text-fill-form,
+  .info-text-shuttle,
+  .cb1 {
+    font-size: 1.2rem;
   }
 
   .submit-button {
