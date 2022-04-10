@@ -34,7 +34,6 @@ body {
   width: 100%;
   height: auto;
   max-width: 450px;
-  padding: 2em 0;
   /* border: 1px solid orange; */
 }
 
@@ -215,13 +214,13 @@ video {
   }
 
   .supporting-text {
-    margin-bottom: 2em;
+    margin-bottom: 1.5em;
     font-size: 2rem;
   }
 
-  .info-text-2 {
-    margin-bottom: 3em;
-  }
+  /* .info-text-2 {
+    margin-bottom: 1em;
+  } */
 
   .info-text-1,
   .info-text-2,
