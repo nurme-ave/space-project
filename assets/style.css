@@ -169,7 +169,7 @@ video {
   color: #fff;
   z-index: 5;
   line-height: 1.4;
-
+  padding: 0 0 1em;
 }
 
 .footer-contact {
