@@ -48,8 +48,8 @@ body {
 }
 
 .accent {
-  font-weight: 900;
-  letter-spacing: 0.05em;
+  font-weight: 700;
+  letter-spacing: 0.03em;
   color: #8ac926;
 }
 
@@ -125,6 +125,7 @@ input[type="checkbox"] {
   justify-content: center;
   width: 100%;
   font-size: 1rem;
+  font-weight: 700 ;
 }
 
 #consent {
