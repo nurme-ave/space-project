@@ -11,8 +11,9 @@ body {
 
 .main-container {
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
   padding-top: 3.5em;
   position: absolute;
   top: 0;
@@ -20,7 +21,8 @@ body {
   width: 100vw;
   height: 100vh;
   color: #fff;
-  background-color: #111;
+  background-color: #000;
+  text-align: center;
   z-index: 5;
 }
 
@@ -31,14 +33,13 @@ body {
   align-items: center;
   width: 90%;
   max-width: 450px;
-  margin: 0 auto;
   /* border: 1px solid orange; */
 }
 
 .main-heading {
   margin-bottom: .3em;
   font-size: 1.9rem;
-  opacity: .8;
+  opacity: 0.8;
 }
 
 .supporting-text {
@@ -175,11 +176,7 @@ video {
 }
 
 .footer {
-  font-size: 1rem;
-  position: absolute;
-  left: 50%;
-  bottom: 2%;
-  transform: translateX(-50%);
+  font-size: 0.8rem;
   width: 90%;
   text-align: center;
   color: #fff;

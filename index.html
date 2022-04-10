@@ -12,13 +12,19 @@
 </head>
 <body>
 
-  <main class="main-container">
+  <div class="main-container">
+    <video autoplay loop muted>
+      <source src="assets/space.mp4" type="video/mp4">
+    </video>
+    
     <div id="card-content" class="card-container">
 
-      <h1 class="main-heading">Need some space?</h1>
-      <p class="supporting-text">We can give it to you - <span class="accent">literally!</span></p>
-      <p class="info-text-fill-form">Fill in the form below and we'll contact you in 24hrs.</p>
-      <p class="info-text-shuttle">The next shuttle leaves on April 22nd, 2022.</p>
+      <div>
+        <h1 class="main-heading">Need some space?</h1>
+        <p class="supporting-text">We can give it to you - <span class="accent">literally!</span></p>
+        <p class="info-text-fill-form">Fill in the form below and we'll contact you in 24hrs.</p>
+        <p class="info-text-shuttle">The next shuttle leaves on April 22nd, 2022.</p>
+      </div>
 
       <form class="form">
         <input name="first-name" type="text" placeholder="Your first name, e.g Apollo" required>
@@ -36,14 +42,11 @@
 
     </div>
     
-    <video autoplay loop muted>
-      <source src="assets/space.mp4" type="video/mp4">
-    </video>
-  </main>
     
     <footer class="footer">
       This is a <strong><span class="fictional">fictional</span></strong> site designed &amp; built by <a href="https://www.avenurme.dev" target="_blank" class="footer-contact">Ave Nurme</a> &copy; 2022
     </footer>
+  </div>
     
   <script src="index.js"></script>
 </body>
