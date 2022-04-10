@@ -15,7 +15,7 @@ This is a personal project designed and built by [Ave Nurme](https://www.avenurm
 
 ### Project Description
 
-I wanted to get a better understanding of HTML forms and watched a tutorial at Scrimba taught by Kevin Powell. After watching the video tutorials I decided it would be wise to get some hands-on experience and create a simple form of my own. Well...my creativity started to fly and this simple form turned out into a small project with implementing background videos and lots of humour :-). It helps a lot when learning is fun :-).
+I wanted to get a better understanding of HTML forms and watched a tutorial at Scrimba taught by Kevin Powell. After watching the video tutorials I decided it would be wise to get some hands-on experience and create a simple form of my own. Well...my creativity started to fly and this simple form turned out into a small project with implementing a moving background video and a sense of humour :-). It helps a lot when learning is fun :-).
 
 The page is fully responsive.
 
