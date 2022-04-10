@@ -45,7 +45,7 @@ body {
 }
 
 .supporting-text {
-  margin-bottom: 1.25em;
+  margin-bottom: 1.5em;
   font-size: 1.15rem;
 }
 
@@ -56,7 +56,7 @@ body {
 }
 
 .info-text-fill-form {
-  margin-bottom: .75em;
+  margin-bottom: .25em;
   font-size: 1rem;
   text-align: center;
   line-height: 1.4;
@@ -76,7 +76,7 @@ body {
   align-items: center;
   width: 100%;
   margin: 0 auto;
-  gap: .75em;
+  gap: 1em;
 }
 
 input {
