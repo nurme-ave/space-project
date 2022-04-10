@@ -114,12 +114,17 @@ input[type="email"] {
 
 input[type="checkbox"] {
   width: 1em;
-  height: 0.8em;
+  height: 1em;
   margin: 0.5em;
+  border: transparent;
+  outline: transparent;
 }
 
 .cb1, .cb2 {
-  line-height: 1.4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* line-height: 1.4; */
   width: 100%;
   text-align: center;
   font-size: 1rem;
@@ -154,7 +159,7 @@ video {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100vw; 
+  width: 100vw;
   height: 100vh;
   object-fit: cover;
   object-position: left top;
@@ -223,6 +228,16 @@ video {
   .cb1 {
     font-size: 1.2rem;
   }
+
+  #consent {
+    outline: 0;
+  }
+
+  /* .cb1 {
+    
+    border: none;
+    outline: none;
+  } */
 
   .submit-button {
     font-size: 1.15rem;
