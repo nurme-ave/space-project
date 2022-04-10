@@ -55,14 +55,14 @@ body {
   color: #8ac926;
 }
 
-.info-text-fill-form {
+.info-text-1 {
   margin-bottom: .25em;
   font-size: 1rem;
   text-align: center;
   line-height: 1.4;
 }
 
-.info-text-shuttle {
+.info-text-2 {
   margin-bottom: 1.25em;
   font-size: 1rem;
   text-align: center;
@@ -120,7 +120,7 @@ input[type="checkbox"] {
   outline: transparent;
 }
 
-.cb1, .cb2 {
+.checkbox-consent, .cb2 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -133,8 +133,8 @@ input[type="checkbox"] {
 
 .submit-button {
   border-radius: 1em;
-  padding: 0.25em 1em;
-  height: 3em;
+  padding: 0.25em 0.5em;
+  height: 3.5em;
   width: 13em;
   text-align: center;
   font-size: 1.05rem;
@@ -219,13 +219,13 @@ video {
     font-size: 2rem;
   }
 
-  .info-text-shuttle {
+  .info-text-2 {
     margin-bottom: 2em;
   }
 
-  .info-text-fill-form,
-  .info-text-shuttle,
-  .cb1 {
+  .info-text-1,
+  .info-text-2,
+  .checkbox-consent {
     font-size: 1.2rem;
   }
 
@@ -233,7 +233,7 @@ video {
     outline: 0;
   }
 
-  /* .cb1 {
+  /* .checkbox-consent {
     
     border: none;
     outline: none;
@@ -241,12 +241,9 @@ video {
 
   .submit-button {
     font-size: 1.15rem;
-    height: 3.5em;
   }
 
-  input {
-    height: 3.55em;
-  }
+
 
   input:focus {
     outline: 3px solid #8ac926;

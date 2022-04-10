@@ -13,7 +13,7 @@ formEl.addEventListener('submit', (e) => {
   if (firstCheckbox) {
     let updatedHTMLContent = `
       <h2 class="updated-content">Thank you, ${capitalizedFirstName}, your form was submitted successfully!</h2>
-      <p class="info-text-shuttle">We'll be in contact within 24 hours and send a confirmation to ${userEmailAddress}!</p>
+      <p class="info-text-2">We'll be in contact within 24 hours and send a confirmation to ${userEmailAddress}!</p>
       <button id="go-back" class="submit-button">Go back</button>
       `;
   
@@ -24,13 +24,13 @@ formEl.addEventListener('submit', (e) => {
       location.reload();
     });
   } else {
-    document.querySelector('.cb1').style.color = 'red';
+    document.querySelector('.checkbox-consent').style.color = 'red';
   }
 });
 
-document.querySelector('.cb1').addEventListener('change', (e) => {
+document.querySelector('.checkbox-consent').addEventListener('change', (e) => {
   if (e.target.checked) {
-    document.querySelector('.cb1').style.color = 'white';
+    document.querySelector('.checkbox-consent').style.color = 'white';
   }
 
 });
