@@ -24,7 +24,7 @@ formEl.addEventListener('submit', (e) => {
     cardContent.innerHTML = updatedHTMLContent;
 
     document.getElementById('go-back').addEventListener('click', () => {
-      // location.reload();
+      // location.reload(); - does not work on Firefox
       window.location.href = window.location.href;
     });
   } else {
