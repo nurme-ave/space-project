@@ -11,9 +11,9 @@ formEl.addEventListener('submit', (e) => {
     userFirstName.slice(1).toLowerCase();
   let userEmailAddress = formData.get('email-address');
 
-  const firstCheckbox = document.getElementById('consent').checked;
+  const userConsent= document.getElementById('consent').checked;
 
-  if (firstCheckbox) {
+  if (userConsent) {
     let updatedHTMLContent = `
       <h2 class="updated-content">Thank you, ${capitalizedFirstName}, your form was submitted successfully!</h2>
       <p class="info-text-2">We'll be in contact within 24 hours and send a confirmation to <span class="accent">${userEmailAddress}!</span></p>
