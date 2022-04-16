@@ -187,6 +187,12 @@ strong {
 
 
 /* MEDIA QUERIES */
+@media screen and (min-width: 360px) {
+  .container {
+    height: calc(var(--vh, 1vh) * 100);
+  }
+}
+
 @media screen and (min-width: 992px) {
   .main-container {
     padding: 0;
