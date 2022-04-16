@@ -15,7 +15,7 @@ document.querySelector('.form').addEventListener('submit', (e) => {
   if (userConsent) {
     let updatedHTMLContent = `
       <h2 class="updated-content">Thank you, ${capitalizedFirstName}, your form was submitted successfully!</h2>
-      <p class="info-text-2">We'll be in contact within 24 hours and send a confirmation to <span class="accent">${userEmailAddress}!</span></p>
+      <p class="info-text">We'll be in contact within 24 hours and send a confirmation to <span class="accent">${userEmailAddress}!</span></p>
       <button id="go-back" class="submit-button">Go back</button>
       `;
 
