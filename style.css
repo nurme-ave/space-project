@@ -52,15 +52,8 @@ body {
   color: #8ac926;
 }
 
-.info-text-1 {
+.info-text {
   margin-bottom: .25em;
-  font-size: 1rem;
-  text-align: center;
-  line-height: 1.4;
-}
-
-.info-text-2 {
-  margin-bottom: 1.25em;
   font-size: 1rem;
   text-align: center;
   line-height: 1.4;
