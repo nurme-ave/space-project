@@ -5,22 +5,20 @@
  */
 
 // First we get the viewport height and we multiple it by 1% to get a value for a vh unit
-let vh = window.innerHeight * 0.01;
+// let vh = window.innerHeight * 0.01;
 // Then we set the value in the --vh custom property to the root of the document
-document.documentElement.style.setProperty('--vh', `${vh}px`);
+// document.documentElement.style.setProperty('--vh', `${vh}px`);
 
 // We listen to the resize event
-window.addEventListener('resize', () => {
-  // We execute the same script as before
-  let vh = window.innerHeight * 0.01;
-  document.documentElement.style.setProperty('--vh', `${vh}px`);
-});
-
+// window.addEventListener('resize', () => {
+//   We execute the same script as before
+//   let vh = window.innerHeight * 0.01;
+//   document.documentElement.style.setProperty('--vh', `${vh}px`);
+// });
 
 const checkboxText = document.querySelector('.checkbox-consent');
-let formEl = document.querySelector('.form');
 
-formEl.addEventListener('submit', (e) => {
+document.querySelector('.form').addEventListener('submit', (e) => {
   e.preventDefault();
 
   let formData = new FormData(e.target);
@@ -39,11 +37,10 @@ formEl.addEventListener('submit', (e) => {
       <button id="go-back" class="submit-button">Go back</button>
       `;
 
-    let cardContent = document.getElementById('card-content');
-    cardContent.innerHTML = updatedHTMLContent;
+    document.getElementById('card-content').innerHTML = updatedHTMLContent;
 
     document.getElementById('go-back').addEventListener('click', () => {
-      // location.reload(); - does not work on Firefox
+      // location.reload(); - may not work on Firefox
       window.location.href = window.location.href;
     });
   } else {
