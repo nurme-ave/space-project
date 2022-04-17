@@ -166,8 +166,9 @@ strong {
 
 .fictional {
   font-size: .9rem;
-  margin-top: .25em;
-  border-top: .5em solid #8ac926;
+  margin-top: .5em;
+  padding: .25em;
+  border-top: .35em solid #8ac926;
 }
 
 .updated-content {
@@ -175,6 +176,10 @@ strong {
   font-size: 2rem;
   text-align: center;
   letter-spacing: 0.03em;
+}
+
+.updated-info-text {
+  margin-bottom: 2em;
 }
 
 
@@ -198,8 +203,7 @@ strong {
     font-size: 2rem;
   }
 
-  .info-text-1,
-  .info-text-2,
+  .info-text,
   .checkbox-consent {
     font-size: 1.2rem;
   }
