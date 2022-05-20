@@ -17,8 +17,7 @@ body {
   top: 0;
   left: 0;
   width: 100vw;
-  /* height: 100vh; */
-  padding: 3em 1em 0;
+  padding: 4em 1em 0;
   text-align: center;
   color: #fff;
   background-color: #000;
@@ -200,6 +199,12 @@ strong {
 @media screen and (min-width: 400px) {
   .main-heading {
     font-size: 2.2rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .main-container {
+    height: 100%;
   }
 }
 
