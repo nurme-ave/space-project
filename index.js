@@ -16,9 +16,9 @@ window.addEventListener('resize', () => {
   document.documentElement.style.setProperty('--vh', `${vh}px`);
 });
 
-const checkboxText = document.querySelector('.checkbox-consent');
+const checkboxText = document.getElementById('checkbox-consent');
 
-document.querySelector('.form').addEventListener('submit', (e) => {
+document.getElementById('form').addEventListener('submit', (e) => {
   e.preventDefault();
 
   let formData = new FormData(e.target);
